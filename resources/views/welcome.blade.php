@@ -4,12 +4,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TailWind</title>
+    <title>Tailwind</title>
     <link rel="stylesheet" href="{{url(mix('css/app.css'))}}">
 </head>
 <body>
+    {{-- <div class="container mx-auto"> --}}
     <div class="container">
         <h1 class="font-sans text-5xl text-blue-700 font-bold text-center mb-4">Tailwind</h1>
+        <hr>
+        <h2 class="font-sans text-4xl text-blue-500 font-bold text-center mb-5">¿Cómo funciona la grid de Tailwind?</h2>
+
+        <div class="grid grid-cols-4 gap-4 mb-16">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+            <div class="bg-blue-700">F</div>
+        </div>
+        <div class="grid grid-cols-4 gap-x-4 mb-16">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+            <div class="bg-blue-700">F</div>
+        </div>
+        <div class="grid grid-cols-4 gap-y-4 mb-16">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+            <div class="bg-blue-700">F</div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+            <div class="bg-blue-700">F</div>
+        </div>
+
+        <div class="grid grid-cols-12 gap-4 mb-16">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+            <div class="bg-blue-700">F</div>
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+            <div class="bg-blue-700">F</div>
+        </div>
+
+        <div class="grid grid-cols-16 gap-4 mb-16">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+            <div class="bg-blue-700">F</div>
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+            <div class="bg-blue-700">F</div>
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4 mb-16">
+            <div class="bg-blue-200 col-span-2">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4 mb-16">
+            <div class="bg-blue-200 col-span-4">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4 mb-16">
+            <div class="bg-blue-200 sm:col-span-2 md:col-span-3 lg:col-span-4">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4 mb-16">
+            <div class="bg-blue-200 col-span-2 col-start-2">A</div>
+            <div class="bg-blue-300 col-start-1">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4 mb-16">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300 col-start-4">B</div>
+            <div class="bg-blue-400">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+        </div>
+
+        <div class="grid grid-cols-4 grid-rows-2 gap-4 mb-16">
+            <div class="bg-blue-200">A</div>
+            <div class="bg-blue-300">B</div>
+            <div class="bg-blue-400 col-span-2 row-span-2">C</div>
+            <div class="bg-blue-500">D</div>
+            <div class="bg-blue-600">E</div>
+        </div>
+
+        <div class="grid grid-flow-col mb-16">
+            <div class="bg-blue-100">1</div>
+            <div class="bg-blue-200">2</div>
+            <div class="bg-blue-300">3</div>
+            <div class="bg-blue-400">4</div>
+            <div class="bg-blue-500">5</div>
+            <div class="bg-blue-600">6</div>
+            <div class="bg-blue-700">7</div>
+            <div class="bg-blue-800">8</div>
+            <div class="bg-blue-900">9</div>
+        </div>
+
+        <div class="grid grid-flow-col grid-rows-3 mb-16">
+            <div class="bg-blue-100">1</div>
+            <div class="bg-blue-200">2</div>
+            <div class="bg-blue-300">3</div>
+            <div class="bg-blue-400">4</div>
+            <div class="bg-blue-500">5</div>
+            <div class="bg-blue-600">6</div>
+            <div class="bg-blue-700">7</div>
+            <div class="bg-blue-800">8</div>
+            <div class="bg-blue-900">9</div>
+        </div>
+
+        <div class="grid grid-flow-col grid-cols-4 grid-rows-3 mb-16">
+            <div class="bg-blue-100">1</div>
+            <div class="bg-blue-200">2</div>
+            <div class="bg-blue-300">3</div>
+            <div class="bg-blue-400">4</div>
+            <div class="bg-blue-500">5</div>
+            <div class="bg-blue-600">6</div>
+            <div class="bg-blue-700">7</div>
+            <div class="bg-blue-800">8</div>
+            <div class="bg-blue-900">9</div>
+        </div>
+
+        <hr>
+
+
 
 
         <h2 class="font-sans text-3xl font-bold mb-4">Este es un título de prueba</h2>

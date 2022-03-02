@@ -15,3 +15,7 @@ p {
 li {
     @apply font-mono text-sm italic;
 } */
+
+hr {
+    border-top: 1px solid black;
+}
