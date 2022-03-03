@@ -343,6 +343,188 @@
             <a href="">Link4</a>
             <a href="">Link5</a>
         </nav>
+
+        <hr>
+        <h2 class="font-sans text-4xl text-blue-500 font-bold text-center mb-5">Tablas en Tailwind</h2>
+
+        <table class="mb-16">
+            <thead>
+                <tr>
+                    <th class="border border-gray-400 px-4 py-2 text-gray-800">País</th>
+                    <th class="border border-gray-400 px-4 py-2 text-gray-800">Ciudad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="bg-gray-200">
+                    <td class="border border-gray-400 px-4 py-2">México</td>
+                    <td class="border border-gray-400 px-4 py-2">Torreón</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-400 px-4 py-2">Brasil</td>
+                    <td class="border border-gray-400 px-4 py-2">Lages</td>
+                </tr>
+                <tr class="bg-gray-200">
+                    <td class="border border-gray-400 px-4 py-2">Ecuador</td>
+                    <td class="border border-gray-400 px-4 py-2">Guayaquil</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>México</td>
+                    <td>Torreón</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td>Lages</td>
+                </tr>
+                <tr>
+                    <td>Ecuador</td>
+                    <td>Guayaquil</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table w-full">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>México</td>
+                    <td>Torreón</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td>Lages</td>
+                </tr>
+                <tr>
+                    <td>Ecuador</td>
+                    <td>Guayaquil</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table w-full border-separate">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>México</td>
+                    <td>Torreón</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td>Lages</td>
+                </tr>
+                <tr>
+                    <td>Ecuador</td>
+                    <td>Guayaquil</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table w-full border-separate lg:border-collapse">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Ciudad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>México</td>
+                    <td>Torreón</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td>Lages</td>
+                </tr>
+                <tr>
+                    <td>Ecuador</td>
+                    <td>Guayaquil</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table w-full border-separate lg:border-collapse">
+            <thead>
+                <tr>
+                    <th>País</th>
+                    <th>Ciudad</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>México</td>
+                    <td>Torreón</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, eum officia! Vel ea officia omnis accusantium. Illum obcaecati quidem blanditiis corporis repudiandae. Vitae tempora quo tempore nobis aperiam? Labore, obcaecati.</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td>Lages</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dicta eius natus ipsa officia ullam a commodi quasi quibusdam deleniti iusto laborum, impedit distinctio suscipit esse cupiditate? Cupiditate, perferendis ex.</td>
+                </tr>
+                <tr>
+                    <td>Ecuador</td>
+                    <td>Guayaquil</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatibus maxime earum laboriosam quos veniam aspernatur consequatur, necessitatibus temporibus ut illum, dolorum architecto fugit, doloremque commodi ea. Nulla, ratione nisi.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table w-full border-separate lg:border-collapse table-fixed">
+            <thead>
+                <tr>
+                    <th class="w-1/4">País</th>
+                    <th class="w-1/4">Ciudad</th>
+                    <th class="w-1/2">Descripción</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>México</td>
+                    <td>Torreón</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, eum officia! Vel ea officia omnis accusantium. Illum obcaecati quidem blanditiis corporis repudiandae. Vitae tempora quo tempore nobis aperiam? Labore, obcaecati.</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td>Lages</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dicta eius natus ipsa officia ullam a commodi quasi quibusdam deleniti iusto laborum, impedit distinctio suscipit esse cupiditate? Cupiditate, perferendis ex.</td>
+                </tr>
+                <tr>
+                    <td>Ecuador</td>
+                    <td>Guayaquil</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatibus maxime earum laboriosam quos veniam aspernatur consequatur, necessitatibus temporibus ut illum, dolorum architecto fugit, doloremque commodi ea. Nulla, ratione nisi.</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
