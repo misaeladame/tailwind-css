@@ -264,6 +264,85 @@
             Hola mundo
         </div>
 
+        <hr>
+        <h2 class="font-sans text-4xl text-blue-500 font-bold text-center mb-5">Bordes en Tailwind</h2>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-l-8 border-blue-800 mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-t-8 border-blue-800 mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-r-8 border-blue-800 mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-b-8 border-blue-800 mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-b-8 border-blue-800 hover:border-green-500 mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-b-8 border-blue-800 hover:border-opacity-75 mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-b-8 border-blue-800 hover:border-opacity-25 mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 border-dashed mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 border-dotted mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 border-double mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 rounded mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 rounded-sm mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 rounded-md mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 rounded-lg mb-16">
+        </div>
+
+        <div class="w-64 h-64 bg-gray-300 border-8 border-blue-800 rounded-full mb-16">
+        </div>
+
+        <div class="w-32 h-64 bg-gray-300 border-8 border-blue-800 rounded-full mb-16">
+        </div>
+
+        <div class="w-64 h-32 bg-gray-300 border-8 border-blue-800 rounded-full">
+        </div>
+
+        <p class="border-b border-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fuga magni error. A dignissimos odit deleniti nobis atque minus enim, rem blanditiis. Nobis nam iure commodi hic accusamus laudantium rem?</p>
+        <p class="border-b border-gray-600">Culpa illo fugit officia rem, quas aliquid ea explicabo omnis dicta architecto facere cumque tempore ab nobis excepturi eos ratione necessitatibus quam. Laboriosam voluptates optio accusamus. Consequatur illum fuga fugiat.</p>
+        <p class="border-b border-gray-600">Repudiandae quo dignissimos neque. Dignissimos cumque reiciendis accusantium necessitatibus nam odio facere atque sequi? Aspernatur est, magnam unde commodi, cum repudiandae nam dolorem voluptatem rem voluptates, minima corporis iure illum.</p>
+        <p class="border-b border-gray-600">Aliquam dolorum officiis repudiandae quam quis eaque omnis, tenetur earum quas nam repellendus dolores! Repudiandae sapiente rem iusto blanditiis praesentium architecto eligendi recusandae nostrum sequi reprehenderit, cumque voluptates maxime eum?</p>
+        <p>Repudiandae alias vero corporis voluptate ab reprehenderit, saepe sit deserunt fuga, maiores repellendus dicta incidunt aut nisi in cum iste labore, repellat fugiat quibusdam suscipit ad? Repellat exercitationem eligendi maxime.</p>
+
+
+        <div class="divide-y-8 divide-gray-600 divide-dashed mt-16">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fuga magni error. A dignissimos odit deleniti nobis atque minus enim, rem blanditiis. Nobis nam iure commodi hic accusamus laudantium rem?</p>
+            <p>Culpa illo fugit officia rem, quas aliquid ea explicabo omnis dicta architecto facere cumque tempore ab nobis excepturi eos ratione necessitatibus quam. Laboriosam voluptates optio accusamus. Consequatur illum fuga fugiat.</p>
+            <p>Repudiandae quo dignissimos neque. Dignissimos cumque reiciendis accusantium necessitatibus nam odio facere atque sequi? Aspernatur est, magnam unde commodi, cum repudiandae nam dolorem voluptatem rem voluptates, minima corporis iure illum.</p>
+            <p>Aliquam dolorum officiis repudiandae quam quis eaque omnis, tenetur earum quas nam repellendus dolores! Repudiandae sapiente rem iusto blanditiis praesentium architecto eligendi recusandae nostrum sequi reprehenderit, cumque voluptates maxime eum?</p>
+            <p>Repudiandae alias vero corporis voluptate ab reprehenderit, saepe sit deserunt fuga, maiores repellendus dicta incidunt aut nisi in cum iste labore, repellat fugiat quibusdam suscipit ad? Repellat exercitationem eligendi maxime.</p>
+        </div>
+
+        <nav class="divide-x-2 divide-blue-600 mb-10">
+            <a href="">Link1</a>
+            <a href="">Link2</a>
+            <a href="">Link3</a>
+            <a href="">Link4</a>
+            <a href="">Link5</a>
+        </nav>
     </div>
 </body>
 </html>
