@@ -16,3 +16,10 @@ Google Fonts
     },
 
 y así ya puedes utilizar fuentes externas
+
+
+-- Páginas para imagenes gratis y libres
+https://www.pexels.com/es-es/
+
+
+https://pixabay.com/
