@@ -525,6 +525,74 @@
                 </tr>
             </tbody>
         </table>
+
+        <hr>
+        <h2 class="font-sans text-4xl text-blue-500 font-bold text-center mb-5">Sizes (width y height)</h2>
+
+        <div class="bg-blue-600 h-64 mb-16">
+            <div class="bg-red-600 h-32">
+
+            </div>
+
+        </div>
+
+        <div class="bg-blue-600 h-64 mb-16">
+            <div class="bg-red-600 h-full">
+
+            </div>
+
+        </div>
+
+        <div class="bg-blue-600 h-64 mb-16">
+            <div class="bg-red-600 h-full w-64">
+
+            </div>
+
+        </div>
+
+        <div class="bg-blue-600 h-64 mb-16">
+            <div class="bg-red-600 h-full w-2/5">
+
+            </div>
+
+        </div>
+
+        <div class="bg-blue-600 h-64 mb-16">
+            <div class="bg-red-600 h-full w-3/5">
+
+            </div>
+
+        </div>
+
+        <div class="bg-blue-600 h-64 mb-16">
+            <div class="bg-red-600 h-full w-full md:w-3/4 lg:w-2/4">
+
+            </div>
+
+        </div>
+
+        <div class="bg-blue-600 h-64 mb-16">
+            <div class="bg-red-600 h-full w-full max-w-5xl">
+
+            </div>
+
+        </div>
+
+        <div class="bg-blue-600 h-64 mb-16">
+            <div class="bg-red-600 h-full w-full max-w-3xl">
+
+            </div>
+
+        </div>
+
+        <div class="bg-black w-64 h-screen mb-16">
+
+        </div>
+
+        <div class="bg-green-600 h-32 mb-16"></div>
+
+        <div class="bg-green-600 h-32 w-screen mb-16"></div>
+
     </div>
 </body>
 </html>
