@@ -497,8 +497,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-5{
   margin-bottom: 1.25rem;
 }
+.mt-16{
+  margin-top: 4rem;
+}
 .grid{
   display: grid;
+}
+.h-12{
+  height: 3rem;
 }
 .list-inside{
   list-style-position: inside;
@@ -540,6 +546,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-y-4{
   row-gap: 1rem;
 }
+.border{
+  border-width: 1px;
+}
+.border-8{
+  border-width: 8px;
+}
+.border-dashed{
+  border-style: dashed;
+}
+.border-blue-600{
+  --tw-border-opacity: 1;
+  border-color: rgb(37 99 235 / var(--tw-border-opacity));
+}
 .bg-blue-200{
   --tw-bg-opacity: 1;
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
@@ -575,6 +594,56 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-blue-900{
   --tw-bg-opacity: 1;
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+.bg-gradient-to-r{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+.from-blue-500{
+  --tw-gradient-from: #3b82f6;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(59 130 246 / 0));
+}
+.via-green-600{
+  --tw-gradient-stops: var(--tw-gradient-from), #16a34a, var(--tw-gradient-to, rgb(22 163 74 / 0));
+}
+.to-yellow-400{
+  --tw-gradient-to: #facc15;
+}
+.bg-contain{
+  background-size: contain;
+}
+.bg-cover{
+  background-size: cover;
+}
+.bg-fixed{
+  background-attachment: fixed;
+}
+.bg-clip-padding{
+  background-clip: padding-box;
+}
+.bg-clip-content{
+  background-clip: content-box;
+}
+.bg-clip-text{
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.bg-center{
+  background-position: center;
+}
+.bg-right{
+  background-position: right;
+}
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+.bg-repeat-x{
+  background-repeat: repeat-x;
+}
+.p-4{
+  padding: 1rem;
 }
 .text-left{
   text-align: left;
@@ -617,6 +686,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-black{
   font-weight: 900;
 }
+.font-extrabold{
+  font-weight: 800;
+}
 .uppercase{
   text-transform: uppercase;
 }
@@ -649,6 +721,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-red-700{
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+.text-transparent{
+  color: transparent;
 }
 .underline{
   -webkit-text-decoration-line: underline;

@@ -6,3 +6,13 @@ npm run watch
 
 Limpiar la caché: Ctrl + F5
 
+Google Fonts
+- Escoger la que más te guste
+- Seleccionar el @import y copiar SOLO el @import
+
+    Y agregarlo dentro de theme
+    fontFamily: {
+        mont: ["Montserrat"],
+    },
+
+y así ya puedes utilizar fuentes externas

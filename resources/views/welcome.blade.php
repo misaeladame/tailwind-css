@@ -6,6 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tailwind</title>
     <link rel="stylesheet" href="{{url(mix('css/app.css'))}}">
+    <style>
+        .imagen {
+            background-image: url("{{asset('img/atardecer.jpg')}}");
+            height: 500px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .imagen-2 {
+            background-image: url("{{asset('img/atardecer.jpg')}}");
+            height: 400px;
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
     {{-- <div class="container mx-auto"> --}}
@@ -167,9 +184,7 @@
         </div>
 
         <hr>
-
-
-
+        <h2 class="font-sans text-4xl text-blue-500 font-bold text-center mb-5">Tipografías en Tailwind</h2>
 
         <h2 class="font-sans text-3xl font-bold mb-4">Este es un título de prueba</h2>
         <p class="font-serif leading-tight mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nesciunt quod adipisci neque eaque architecto ab a exercitationem deleniti tenetur. Adipisci ea sint, dicta autem ipsa nam corporis in praesentium!</p>
@@ -211,6 +226,44 @@
         </ul>
 
         <p class="capitalize">josé misael adame sandoval</p>
+        <hr>
+        <h2 class="font-sans text-4xl text-blue-500 font-bold text-center mb-5">Background en Tailwind</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quasi quidem accusamus eaque dicta nobis ab, odit dolores a quas laboriosam nostrum doloremque dolorum illo architecto iusto consectetur voluptatum natus.</p>
+        <div class="imagen bg-contain bg-no-repeat border-8 border-blue-600 mb-16"></div>
+
+        <div class="imagen bg-cover bg-center border-8 border-blue-600 mb-16"></div>
+
+        <div class="imagen bg-cover bg-right border-8 border-blue-600 mb-16"></div>
+
+        <div class="imagen bg-cover bg-center border-8 border-blue-600 border-dashed bg-clip-padding mb-16"></div>
+
+        <div class="imagen bg-cover bg-center border-8 border-blue-600 border-dashed bg-clip-content p-4 mb-16"></div>
+
+        <div class="imagen-2 bg-fixed"></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, similique dicta delectus quae nulla tempore eum voluptate rem labore qui! Dolor tempore quae recusandae, commodi voluptate sequi voluptas quidem nam.</p>
+        <p>Totam laboriosam eveniet nesciunt ab, fugiat modi obcaecati quibusdam quae quaerat tempora voluptas, perspiciatis architecto eos. Itaque totam praesentium omnis qui quia, fuga aliquam dignissimos! Et nam mollitia sint quasi!</p>
+        <p>Qui ex odit distinctio similique. Dolore labore fugit corrupti? Laudantium tempora eius quo minima quaerat ullam optio nobis exercitationem dolorum vero. Commodi laborum explicabo optio quae tenetur laboriosam fuga provident!</p>
+        <p>Consequuntur eius iusto nam illum ad harum ipsa! Hic veritatis atque et deserunt corporis soluta sapiente ut, libero dolor ipsa, id laboriosam harum reprehenderit rem molestiae consequuntur, voluptas officia nulla!</p>
+        <p>Rem consequuntur neque repudiandae error saepe aliquid, sint quia, et voluptas quod iste quibusdam. Molestias magni cupiditate fugiat sit enim earum possimus laboriosam ullam, ipsum doloremque reprehenderit, necessitatibus ratione sunt?</p>
+        <p>Porro optio ut commodi facere a possimus voluptatem facilis dignissimos similique aliquid tempora at delectus neque aliquam amet harum, fugiat quia! Molestias nemo autem quam dolore, molestiae nisi praesentium omnis.</p>
+        <p>Modi expedita animi provident! Eum sunt quidem mollitia deserunt neque repudiandae quod, ab minus aut, veritatis doloremque fuga saepe doloribus ea laborum quam iste vitae cumque, dolor iure. Voluptatibus, itaque!</p>
+        <p>Magni libero maxime dolores fuga! Nobis accusamus quas deserunt quo provident delectus aperiam vero inventore, soluta debitis necessitatibus quod voluptate. Doloremque, illo officiis! A porro voluptate perspiciatis repellendus alias. Consectetur!</p>
+        <p>Voluptas voluptatibus veritatis, ullam ipsam quasi id corporis. Tempore, incidunt error? Rerum, minima perspiciatis. Inventore ea expedita doloribus porro ut illum aperiam at ad odit non a, sed, aliquam eos!</p>
+        <p>Velit itaque dolore animi, iste sunt quos, veniam cumque incidunt ratione corrupti tenetur iusto ad porro consequuntur iure. Asperiores natus, molestiae rem doloremque quibusdam a facere illo eos libero quaerat!</p>
+
+        <div class="bg-blue-700 h-12 bg-opacity-50 mt-16">
+
+        </div>
+
+        <div class="bg-gradient-to-r from-blue-500 via-green-600 to-yellow-400 text-center font-extrabold text-5xl mt-16">
+            Hola mundo
+        </div>
+
+        <div class="bg-gradient-to-r from-blue-500 via-green-600 to-yellow-400 text-center font-extrabold text-5xl bg-clip-text text-transparent mt-16 mb-16">
+            Hola mundo
+        </div>
+
     </div>
 </body>
 </html>
